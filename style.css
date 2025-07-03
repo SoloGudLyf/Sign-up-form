@@ -1,4 +1,6 @@
 /* General Styles */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 @font-face {
   font-family: "Norse";
   src: url("/Sign-up-form/Norse-Bold.woff2") format("woff2");
@@ -9,17 +11,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: black;
+}
 
 main {
   display: flex;
-  width: 75%;
-  height: 100vh;
 
-  margin: 0 auto;
+  height: 100vh;
+  justify-content: center;
 }
 
 .sideview {
-  width: 35em;
+  width: 30rem;
   height: 100vh;
   background-color: aqua;
   background-image: url(/Sign-up-form/halie-west-25xggax4bSA-unsplash.jpg);
@@ -28,9 +32,8 @@ main {
 }
 
 .formcontent {
-  width: 65em;
+  width: 50rem;
   height: 100vh;
-  background-color: red;
 }
 
 /* STYLING THE SIDEVIEW  */
@@ -47,7 +50,7 @@ main {
 img {
   margin: 5px;
 }
-span {
+.odin {
   font-family: "Norse";
   font-size: 6rem;
   align-self: center;
@@ -64,17 +67,55 @@ span {
 .welcome-Msg {
   width: 100%;
   height: 30%;
-  background-color: rgb(7, 66, 117);
+  background-color: rgb(240, 243, 247);
+}
+.msg,
+.morale {
+  font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
+  max-width: 55ch;
+  font-size: 1.4rem;
+  word-wrap: break-word;
+  margin: 6rem 3rem 4rem 2rem;
+  font-weight: 450;
+}
+.morale {
+  margin-left: 0;
 }
 
 .form-Elems {
   width: 100%;
   height: 40%;
-  background-color: rgb(117, 7, 44);
+}
+
+.formInput {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.945);
+}
+.form1 {
+  padding: 1rem 1rem 2rem 2rem;
+  width: 50%;
+  height: 40vh;
+}
+.form2 {
+  padding-top: 2.45rem;
+  height: 40vh;
+  width: 50%;
 }
 
 .btns {
   width: 100%;
-  height: 30%;
-  background-color: rgb(117, 97, 7);
+  height: 30vh;
+  background-color: rgb(95, 72, 54);
+}
+
+/* STYLING INPUTS AND LABELS */
+label {
+  display: block;
+  margin-top: 2rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+input {
+  width: 70%;
+  height: 2rem;
 }
