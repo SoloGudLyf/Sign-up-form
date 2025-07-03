@@ -66,16 +66,17 @@ img {
 
 .welcome-Msg {
   width: 100%;
-  height: 30%;
-  background-color: rgb(240, 243, 247);
+  height: 40%;
+  background-color: rgb(247, 248, 250);
 }
 .msg,
 .morale {
   font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
   max-width: 55ch;
-  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-size: 1.6rem;
   word-wrap: break-word;
-  margin: 6rem 3rem 4rem 2rem;
+  margin: 10rem 3rem 1rem 2rem;
   font-weight: 450;
 }
 .morale {
@@ -84,31 +85,38 @@ img {
 
 .form-Elems {
   width: 100%;
-  height: 40%;
+  height: 30%;
 }
 
 .formInput {
   display: flex;
-  background-color: rgba(255, 255, 255, 0.945);
+  background-color: rgba(255, 255, 255, 0.979);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-bottom: 4px solid rgba(0, 0, 0, 0.15);
 }
 .form1 {
   padding: 1rem 1rem 2rem 2rem;
   width: 50%;
-  height: 40vh;
+  height: 35vh;
 }
 .form2 {
   padding-top: 2.45rem;
-  height: 40vh;
+  height: 35vh;
   width: 50%;
 }
+
+/* STYLING THE BUTTONS SECTION */
 
 .btns {
   width: 100%;
   height: 30vh;
-  background-color: rgb(95, 72, 54);
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  padding-left: 2rem;
+  background-color: rgb(247, 248, 250);
 }
 
-/* STYLING INPUTS AND LABELS */
+/* STYLING INPUTS, LABELS  AND BUTTONS*/
 label {
   display: block;
   margin-top: 2rem;
@@ -118,4 +126,28 @@ label {
 input {
   width: 70%;
   height: 2rem;
+}
+
+button {
+  font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
+  display: block;
+  width: 13rem;
+  height: 2.5rem;
+  background-color: #596d48;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  border: none;
+}
+
+a {
+  font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
+
+  color: #596d48;
+}
+.btn-info {
+  font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
 }
