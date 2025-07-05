@@ -41,7 +41,10 @@
                 <input type="email" name="email" id="email" />
 
                 <label for="password">PASSWORD</label>
-                <input type="password" name="password"  id="password" />
+                <input type="password" name="password"   
+  minlength="8"
+  pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}"
+  placeholder="At least 8 chars, with uppercase, lowercase and a digit"  id="password" />
               </div>
               <div class="form2">
                 <label for="lname">LAST NAME</label>
@@ -51,7 +54,10 @@
                 <input type="tel" name="tel" id="tel">
 
                 <label for="confirmPassword">CONFIRM PASSWORD</label>
-                <input type="password" id="confirmPassword" name="confirmPassword">
+                <input type="password"   
+  minlength="8"
+  pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}"
+  placeholder="At least 8 chars, with uppercase, lowercase and a digit"id="confirmPassword" name="confirmPassword">
               </div> 
             </div>
             <div class="btns">
