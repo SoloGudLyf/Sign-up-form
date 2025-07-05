@@ -49,6 +49,19 @@ main {
 img {
   margin: 5px;
 }
+
+.footer {
+  color: white;
+  position: relative;
+  top: 49rem;
+  left: 9rem;
+  font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .odin {
   font-family: "Norse";
   font-size: 6rem;
